@@ -22,6 +22,15 @@ The project was created to automate signing up for Broadway musicals' lotteries 
 5. The workflow will run daily at the [specified time](/.github/workflows/playwright.yml#L5) (UTC timezone)
 6. Modify the [list of shows](/e2e/broadway-direct.spec.ts#L14) you want to sign-up for if needed
 
+### Secrets example
+
+#### List of secrets
+<img width="640" alt="image" src="https://github.com/NameFILIP/broadway-lottery/assets/834796/7b3baad6-5fad-42ff-9704-074d6bcaadc2">
+
+#### Create a new secret
+<img width="640" alt="image" src="https://github.com/NameFILIP/broadway-lottery/assets/834796/52daa38a-7fec-4f5d-b918-362b18dcb2bc">
+
+
 ## Email filters
 
 In order to avoid being a daily loser, I recommend creating email filters to automatically Archive or Delete the following emails:
